@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 指定字符集 -->
+    <meta charset="utf-8">
+    <!-- 使用Edge最新的浏览器的渲染方式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport视口：网页可以根据设置的宽度自动进行适配，在浏览器的内部虚拟一个容器，容器的宽度与设备的宽度相同。
+    width: 默认宽度与设备的宽度相同
+    initial-scale: 初始的缩放比，为1:1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>文本信息管理系统</title>
+
+    <!-- 1. 导入CSS的全局样式 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 2. jQuery导入，建议使用1.9以上的版本 -->
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <!-- 3. 导入bootstrap的js文件 -->
+    <script src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        td, th {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <!-- 设置布局容器为container：固定宽度并支持响应式布局的容器-->
+    <h3 style="text-align: center;">文本信息列表</h3>
+    <!-- 内联表单靠左，添加删除靠右 -->
+    <div style="float: left;">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="exampleInputName1">类别</label>
+                <input type="text" name="type" class="form-control" id="exampleInputName1" placeholder="固定资产">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName2">标题</label>
+                <input type="text" name="title" class="form-control" id="exampleInputName2" placeholder="固定资产投资稳定增长">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName3">时间</label>
+                <input type="text" name="time" class="form-control" id="exampleInputName3" placeholder="2019-12">
+            </div>
+            <button type="submit" class="btn btn-default">查询</button>
+        </form>
+    </div>
+    <div style="float: right;">
+        <a class="btn btn-primary" href="">添加文本</a>
+        <a class="btn btn-danger" href="">删除选中</a>
+    </div>
+
+    <table border="3" class="table table-bordered table-hover">
+        <tr class="success">
+            <th><input type="checkbox"></th>
+            <th>编号</th>
+            <th>类别</th>
+            <th>标题</th>
+            <th>时间</th>
+            <th>内容</th>
+            <th>链接</th>
+            <th>操作</th>
+            <th>文本处理</th>
+        </tr>
+
+        <tr>
+            <th><input type="checkbox"></th>
+            <td>1</td>
+            <td>固定资产</td>
+            <td>固定资产投资增长较快</td>
+            <td>2019-10-26</td>
+            <td>累计完成交通运输固定资产投资15亿元，为年度目标任务的1.5%，同比增长1.5%，实现良好开局。主要指标基本达到预期目标，但还存在投资结构不平衡的问题。</td>
+            <td>www.baidu.com</td>
+            <td>
+                <a class="btn btn-default btn-sm" href="">修改</a>
+                <a class="btn btn-danger btn-sm" href="">删除</a>
+            </td>
+            <td>
+                <a class="btn btn-default btn-sm" href="">分词处理</a>
+            </td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
