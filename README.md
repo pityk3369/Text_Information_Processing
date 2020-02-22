@@ -8,11 +8,11 @@
 
 
 
-![image-20200222160253882](D:\md_photos\image-20200222160253882.png)
+![image-20200222160253882](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200222160253882.png)
 
 
 
-![image-20200222160320009](D:\md_photos\image-20200222160320009.png)
+![image-20200222160320009](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200222160320009.png)
 
 
 
@@ -228,7 +228,7 @@ public class JDBCUtils {
 
 
 
-![image-20200216162559618](D:\md_photos\image-20200216162559618.png)
+![image-20200216162559618](Dhttps://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200216162559618.png)
 
 
 
@@ -337,7 +337,7 @@ public class Text {
 
 跳转成功：
 
-![image-20200217111610447](D:\md_photos\image-20200217111610447.png)
+![image-20200217111610447](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217111610447.png)
 
 
 
@@ -504,11 +504,11 @@ public void addText(Text text) {
 
 ### 5-5测试
 
-![image-20200217123710544](D:\md_photos\image-20200217123710544.png)
+![image-20200217123710544](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217123710544.png)
 
 
 
-![image-20200217123728263](D:\md_photos\image-20200217123728263.png)
+![image-20200217123728263](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217123728263.png)
 
 
 
@@ -517,19 +517,19 @@ public void addText(Text text) {
 对于网页前端add.jsp的输入表单内容，如何传入到addTextServlet中？
 
 前端代码中：
-![image-20200217124256839](D:\md_photos\image-20200217124256839.png)
+![image-20200217124256839](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217124256839.png)
 
 使用post方法，input这些数据内容后；在后台的addTextServlet代码中，在post方法体内通过request获取前端输入的内容：
 
-![image-20200217124437755](D:\md_photos\image-20200217124437755.png)
+![image-20200217124437755](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217124437755.png)
 
 
 
-![image-20200217125739478](D:\md_photos\image-20200217125739478.png)
+![image-20200217125739478](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217125739478.png)
 
 
 
-![image-20200217125720121](D:\md_photos\image-20200217125720121.png)
+![image-20200217125720121](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200217125720121.png)
 
 
 
@@ -809,17 +809,17 @@ public void deleteText(String id) {
 
 对于选中的文本，我们需要建立一个表单form：checkbox_form；在此表单内，勾选的checkbox作为input输入内容；该表单范围是整个table；
 
-![image-20200218151327575](D:\md_photos\image-20200218151327575.png)
+![image-20200218151327575](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200218151327575.png)
 
 
 
-![image-20200218112212387](D:\md_photos\image-20200218112212387.png)
+![image-20200218112212387](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200218112212387.png)
 
 
 
 并对“删除选中”按钮进行功能设置：
 
-![image-20200218154337492](D:\md_photos\image-20200218154337492.png)
+![image-20200218154337492](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200218154337492.png)
 
 
 
@@ -890,13 +890,13 @@ public void delSerlectedText(String[] ids) {
 
 ### 8-4 测试成功！
 
-![image-20200218154712421](D:\md_photos\image-20200218154712421.png)
+![image-20200218154712421](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200218154712421.png)
 
 
 
 ### 8-5新增全部选中功能
 
-![image-20200218172443563](D:\md_photos\image-20200218172443563.png)
+![image-20200218172443563](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200218172443563.png)
 
 
 
@@ -904,7 +904,7 @@ checkbox复选框，将选择的结果提交到“checkbox_form"。
 
 根据id="firstCb"，复选框的状态来 对 确定列表中文本中复选框id="tid"的状态。
 
-![image-20200218172729932](D:\md_photos\image-20200218172729932.png)
+![image-20200218172729932](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200218172729932.png)
 
 在list.jsp文件中，增加下面的js事件：
 
@@ -930,7 +930,7 @@ document.getElementById("firstCb").onclick = function () {
 
 将从Hanlp的github官网，下载到的jar包，放入lib中。
 
-![image-20200219142325800](D:\md_photos\image-20200219142325800.png)
+![image-20200219142325800](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200219142325800.png)
 
 ```text
 #本配置文件中的路径的根目录，根目录+其他路径=完整路径（支持相对路径，请参考：https://github.com/hankcs/HanLP/pull/254）
@@ -1032,7 +1032,7 @@ process.jsp
 
 
 
-![image-20200221115933859](D:\md_photos\image-20200221115933859.png)
+![image-20200221115933859](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200221115933859.png)
 
 
 
@@ -1142,11 +1142,11 @@ process.jsp
 
 将这些处理结果类型声明为类成员，进行不同的操作，对不同成员赋值，但是在post方法结尾处进行都统一的属性设置。
 
-![image-20200221135555399](D:\md_photos\image-20200221135555399.png)
+![image-20200221135555399](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200221135555399.png)
 
 
 
-![image-20200221135613146](D:\md_photos\image-20200221135613146.png)
+![image-20200221135613146](https://github.com/pityk3369/Text_Information_Processing/blob/master/md_photos/image-20200221135613146.png)
 
 - ```jsp
   <td>
