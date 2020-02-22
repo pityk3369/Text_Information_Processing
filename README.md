@@ -4,7 +4,7 @@
 
 管理员登录、文本添加删除、批量处理、分词、关键词处理、自动摘要生成！
 
-![image-20200222160226316](D:\md_photos\image-20200222160226316.png)
+![image-20200222160226316](https://github.com/pityk3369/Text_Information_Processing/blob/master/image-20200222160226316.png)
 
 
 
